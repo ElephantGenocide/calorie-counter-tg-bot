@@ -1,0 +1,19 @@
+{
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "pythonVersion": "3.13",  // Adjust to your actual Python version
+            "extraPaths": [
+                "./core",
+                "./handlers"
+            ]
+        }
+    ],
+    "include": [
+        "*.py",
+        "core",
+        "handlers"
+    ],
+    "reportMissingImports": true,
+    "reportMissingModuleSource": false
+}
